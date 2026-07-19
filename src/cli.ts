@@ -24,6 +24,7 @@ try {
       console.log("Henüz kayıtlı link yok.");
     } else {
       links.forEach(({ code, url }) => console.log(`${code}  →  ${url}`));
+      console.log(`\nToplam: ${links.length} link`);
     }
   } else {
     printUsage();
